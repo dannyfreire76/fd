@@ -1,0 +1,3 @@
+<!--#exec cgi="cgi-bin/header.pl" -->
+<!--#exec cgi="cgi-bin/portfolio.pl" -->
+<!--#include file="footer.shtml" -->
