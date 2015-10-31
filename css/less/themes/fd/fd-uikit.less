@@ -50,7 +50,29 @@
 @import "modal.less";
 @import "offcanvas.less";
 
-// Need to be loaded last
+// Need to be loaded last in core
 @import "text.less";
 @import "utility.less";
 @import "contrast.less";
+
+//Components:
+@import "../../components/tooltip.less";//from base
+@import "tooltip.less";
+
+//Additional styles that don't fit into any of the UIKit less files above
+#mainContainer {
+    background: #e0e0e0;
+    padding: 3% 0;
+}
+
+footer {
+        -moz-box-shadow: 1px 0 0 #998B00;
+        -webkit-box-shadow: 1px 0 0 #998B00;
+        box-shadow: 1px 0 0 #998B00;
+        border-top: 5px solid #bababa;
+        margin-top: 1px;
+}
+
+.clear-both {
+    clear: both;
+}

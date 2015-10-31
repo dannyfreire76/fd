@@ -25,10 +25,10 @@
 @button-hover-color:                            @global-color;
 @button-active-color:                           @global-color;
 
-@button-primary-background:                     @global-primary-background;
+@button-primary-background:                     #E66B26;
 @button-primary-color:                          @global-contrast-color;
-@button-primary-hover-color:                    @global-contrast-color;
-@button-primary-active-color:                   @global-contrast-color;
+@button-primary-hover-color:                    #EF993C;
+@button-primary-active-color:                   @button-primary-hover-color;
 
 @button-success-background:                     @global-success-background;
 @button-success-color:                          @global-contrast-color;
@@ -50,7 +50,10 @@
 // Component
 // ========================================================================
 
-.hook-button() {}
+.hook-button() {
+    border-radius: 5px;
+    font-weight: 600;
+}
 
 .hook-button-hover() {}
 
