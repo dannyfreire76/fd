@@ -74,15 +74,15 @@ print qq!
 
 			print qq!
 			<div class="uk-width-medium-1-2">
-				<a class="uk-thumbnail uk-border-rounded" href="#$name\_modal" data-uk-modal="{center:true}">
-					<figure class="uk-overlay uk-overlay-hover uk-hidden-touch">
+				<a href="#$name\_modal" data-uk-modal="{center:true}">
+					<figure class="uk-overlay uk-overlay-hover uk-hidden-touch uk-border-rounded fd-border">
 						<img src="/images/$name\_full.gif" border="0" name="$name">
 						<figcaption class="uk-overlay-panel uk-overlay-background uk-overlay-bottom uk-overlay-slide-bottom">
 							<h2 class="uk-margin-small-bottom">$title</h2>
 							<h4 class="uk-margin-top-remove" style="text-transform: lowercase;">$subtitle</h4>
 						</figcaption>
 					</figure>
-					<img class="uk-hidden-notouch" src="/images/$name\_full.gif" border="0" name="$name">
+					<img class="uk-hidden-notouch fd-border" src="/images/$name\_full.gif" border="0" name="$name">
 				</a>
 			</div>
 			!;

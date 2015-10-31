@@ -2,7 +2,7 @@ jQuery(document).ready(function ($) {
 	setTimeout( function(){
 		var bw_offset = 250;
 		var thumb_idx = 0;
-		$('.uk-thumbnail > .uk-overlay').each(function(){//present thumbs in color by default then fade to b&w
+		$('.uk-overlay').each(function(){//present thumbs in color by default then fade to b&w
 			var $el = $(this);
 			thumb_idx++;
 			setTimeout( function(){ $el.addClass('fd-bw'); }, thumb_idx * bw_offset);
