@@ -19,8 +19,8 @@ jQuery(document).ready(function ($) {
 				$el.blur();//hide tooltip
 				$el.attr('title', '');//remove tooltip
 				$el.focus();//focus input
-			}, 2500);
-		}, 1000);
+			}, 2000);
+		}, 800);
 	});
 
 	$('.uk-form').submit(function(event){//if we get this far, HTML5 validation has already executed

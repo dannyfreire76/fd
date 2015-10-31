@@ -34,7 +34,7 @@ print qq!
 	<div class="uk-container uk-container-center">
 		<div class="uk-grid">
 			<div class="uk-width-9-10 uk-width-medium-4-6">
-				<a href="#aboutMe" data-uk-smooth-scroll class="uk-navbar-brand uk-padding-remove">DANNY FREIRE &nbsp;&nbsp;<span class="nav-contrast uk-display-inline-block uk-hidden-small">Web Developer since 2000</span></a>
+				<div href="#" data-uk-smooth-scroll class="uk-navbar-brand uk-padding-remove">DANNY FREIRE &nbsp;&nbsp;<span class="nav-contrast uk-display-inline-block uk-hidden-small">Web Developer since 2000</span></div>
 			</div>
 			<div class="uk-width-1-10 uk-width-medium-2-6">
 				<div class="uk-navbar-flip">
@@ -42,14 +42,14 @@ print qq!
 						<a href="#ocMenu" class="uk-navbar-toggle" data-uk-offcanvas></a>
 					</div>
 					<ul class="uk-navbar-nav uk-hidden-small">
-						<li class="uk-active"><a href="">PORTFOLIO</a></li>
-						<li class=""><a href="#contactMe" data-uk-smooth-scroll>CONTACT</a></li>
+						<li><a href="#aboutMe" data-uk-smooth-scroll>about</a></li>
+						<li><a href="#contactMe" data-uk-smooth-scroll>contact</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 		<div class="uk-grid uk-visible-small uk-margin-top-remove">
-			<div class="nav-contrast uk-width-1-1 uk-margin-bottom">Web Developer since 2000</div>
+				<div class="nav-contrast uk-width-1-1 uk-margin-bottom">web developer since 2000</div>
 		</div>
 	</div>
 </nav>
@@ -57,7 +57,7 @@ print qq!
 <div id="ocMenu" class="uk-offcanvas uk-visible-small">
 	<div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
 		<ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav="{multiple:true}">
-			<li class="uk-active"><a href="#">Portfolio</a></li>
+			<li><a href="#aboutMe">About</a></li>
 			<li><a href="#contactMe">Contact</a></li>
 		</ul>
 	</div>

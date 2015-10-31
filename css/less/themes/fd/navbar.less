@@ -7,7 +7,7 @@
 // Variables
 // ========================================================================
 
-@navbar-background:                             #062F66;
+@navbar-background:                             transparent;
 @navbar-nav-font-family:                        @base-body-font-family;
 @navbar-color:                                  @global-color;
 @navbar-link-color:                             @global-link-color;
@@ -26,7 +26,7 @@
 @navbar-nav-onclick-background:                 transparent;
 @navbar-nav-onclick-color:                      @navbar-nav-active-color;
 @navbar-nav-active-background:                  transparent;
-@navbar-nav-active-color:                       #FFEA92;
+@navbar-nav-active-color:                       #fff;
 
 
 @navbar-toggle-font-size:                       round((@global-font-size * 1.28)); // 18px / 20px
@@ -83,11 +83,12 @@
 .hook-navbar-misc() {
 
     .nav-contrast {
-        color: #EF993C;
+        color: #ef993c;
 
-        @media (max-width: @breakpoint-small-max) {
-            font-size: round((@navbar-nav-font-size * .9));
-        }
+
+     @media (max-width: @breakpoint-small-max) {
+                font-size: round((@navbar-nav-font-size * .9));
+            }
     }
 
     .uk-navbar-brand {
