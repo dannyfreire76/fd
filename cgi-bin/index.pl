@@ -1,10 +1,10 @@
-#!/usr/bin/perl -w
 #!C:/indigoampp/perl-5.12.1/bin/perl.exe
-
+#!/usr/bin/perl -w
+use DBI;
 print qq!Content-type: text/html\n\n!;
 
-$dbh = DBI->connect('DBI:mysql:danny_portfolio:localhost','danny_danny','redbird1');
-#$dbh = DBI->connect('DBI:mysql:test:localhost','','');
+#$dbh = DBI->connect('DBI:mysql:danny_portfolio:localhost','danny_danny','redbird1');
+$dbh = DBI->connect('DBI:mysql:test:localhost','','');
 
 		$sql = qq!SELECT * FROM main ORDER BY order_of;!;
 		$command = $dbh->prepare($sql) || die "Cannot prepare statement: $DBI::errstr\n";
