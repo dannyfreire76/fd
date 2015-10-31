@@ -74,7 +74,7 @@ print qq!
 
 			print qq!
 			<div class="uk-width-medium-1-2">
-				<a href="#$name\_modal" data-uk-modal="{center:true}">
+				<a class="alt-thumb" href="#$name\_modal" data-uk-modal="{center:true}">
 					<figure class="uk-overlay uk-overlay-hover uk-hidden-touch uk-border-rounded fd-border">
 						<img src="/images/$name\_full.gif" border="0" name="$name">
 						<figcaption class="uk-overlay-panel uk-overlay-background uk-overlay-bottom uk-overlay-slide-bottom">
