@@ -13,14 +13,13 @@ $dbh = DBI->connect('DBI:mysql:test:localhost','','');
 print qq!
 <html>
 <head>
-	<title>Freire Design &nbsp;|&nbsp; Web development by Danny Freire, located in Ithaca, NY</title>
+	<title>Danny Freire &nbsp;|&nbsp; Experienced Web developer located in Ithaca, NY</title>
 	<meta NAME="keywords" CONTENT="Ithaca web design, Ithaca website, Ithaca web developer, web design, web developer, web changes, web presence, web hosting, website hosting, website host, Ithaca web hosting, Ithaca website hosting." />
 	<meta NAME="description" CONTENT="Web design company located in Ithaca, NY specializing in database-driven, dynamic web sites." />
 	<Meta name="robots" content="follow" />
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width" />
 	<meta name="google-site-verification" content="NnaTCFq8OqoWB8tycZB9nu5JW1ZvYlsFPgDIixZ7pNc" />
-	<link REL="SHORTCUT ICON" HREF="http://www.freire-design.com/favicon.ico" TYPE="image/x-icon" />
 	<link rel="stylesheet" type="text/css" href="/css/fd.css" />
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
