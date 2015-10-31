@@ -9,7 +9,7 @@ jQuery(document).ready(function ($) {
 		});
 	}, 250);
 
-	$('a[href=#contactMe]').on('click', function(){
+	$('.uk-notouch a[href=#contactMe]').on('click', function(){
 		setTimeout( function(){
 			var $el = $('#email');
 			$el.attr( 'title', 'What\'s on your mind?' );
